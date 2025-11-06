@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun --hot src/index.html"
+    "dev": "bun --hot src/index.html",
+    "_build": "bun build src/index.html --minify --outdir=dist"
   },
   "devDependencies": {
     "@types/bun": "latest"
