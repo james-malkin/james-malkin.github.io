@@ -31,6 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2 // [!code ++]
       - run: bun install // [!code ++]
       - run: bun run build // [!code ++]
       - name: Setup Pages
