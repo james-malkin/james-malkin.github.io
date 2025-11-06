@@ -1,5 +1,5 @@
 await Bun.build({
-  entrypoints: ["./index.html"],
+  entrypoints: ["./src/index.html"],
   outdir: "./dist",
   minify: true,
 });
