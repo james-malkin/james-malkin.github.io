@@ -1,1 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  --color-chateau-green-600: #15864e;
+
+  --font-cascadia-code: 'Cascadia Code', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply font-cascadia-code;
+
+    background-color: #0C0C0C;
+  }
+}
+
+@layer components {
+  .level10k {
+      @apply relative flex pr-2;
+      
+      height: 45px;
+      line-height: 45px;
+
+      &:after {
+        content:"";
+        position: absolute;
+        left: 100%;
+        border-top:22.5px solid transparent;
+        border-left:22.5px solid;
+        border-bottom:22.5px solid transparent;
+        border-left-color: inherit;
+      }
+  }
+}
