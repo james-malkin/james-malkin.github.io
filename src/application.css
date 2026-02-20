@@ -20,16 +20,16 @@
   .level10k {
       @apply relative flex pr-2;
       
-      height: 45px;
-      line-height: 45px;
+      height: 38px;
+      line-height: 38px;
 
       &:after {
         content:"";
         position: absolute;
         left: 100%;
-        border-top:22.5px solid transparent;
-        border-left:22.5px solid;
-        border-bottom:22.5px solid transparent;
+        border-top: 19px solid transparent;
+        border-left: 19px solid;
+        border-bottom: 19px solid transparent;
         border-left-color: inherit;
       }
   }

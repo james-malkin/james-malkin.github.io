@@ -1,3 +1,4 @@
+/// <reference types="bun-types" />
 import tailwind from "bun-plugin-tailwind"
 
 await Bun.build({

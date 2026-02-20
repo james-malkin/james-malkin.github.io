@@ -1,12 +1,19 @@
 <!doctype html>
   <head>
     <link rel='stylesheet' href='./application.css' />
+    <script type='module' src='./index.ts' defer></script>
   </head>
 
-  <main class='h-dvh flex justify-content-end pb-5 pl-5'>
-    <div class='text-4xl flex mt-auto'>
+  <main class='h-dvh flex flex-col justify-end pb-5 pl-5 align-middle text-3xl'>
+    
+    <div class='flex flex-col text-gray-300' data-history></div>
+    
+    <div class='flex mt-5'>
       <span class='level10k text-white bg-blue-500 border-blue-500 pl-5 z-2'>~/projects/james-malkin.github.io</span>
       <span class='level10k text-black bg-yellow-300 border-yellow-300 pl-10 z-1'>main !1</span>
+
+      <div class='ml-10 text-gray-300' data-typewriter></div>
+      <span class="w-3.5 bg-gray-300 ml-[1px]"></span>
     </div>
   </main>
 </html>

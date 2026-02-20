@@ -12,7 +12,7 @@
         "tailwindcss": "^4.1.17",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^5.9.3",
       },
     },
   },
